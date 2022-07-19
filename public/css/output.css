@@ -3882,10 +3882,6 @@ textarea.form-control.is-invalid {
   z-index: 10;
 }
 
-.-m-1 {
-  margin: -0.25rem;
-}
-
 .m-1 {
   margin: 0.25rem;
 }
@@ -3940,20 +3936,12 @@ textarea.form-control.is-invalid {
   display: none;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-9 {
   height: 2.25rem;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-full {
-  width: 100%;
+.h-full {
+  height: 100%;
 }
 
 .w-9 {
@@ -3966,6 +3954,10 @@ textarea.form-control.is-invalid {
 
 .w-3 {
   width: 0.75rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-md {
@@ -3998,10 +3990,6 @@ textarea.form-control.is-invalid {
 
 .flex-col-reverse {
   flex-direction: column-reverse;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
@@ -4056,20 +4044,12 @@ textarea.form-control.is-invalid {
   align-self: flex-end;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
 }
 
 .border-2 {
@@ -4105,16 +4085,6 @@ textarea.form-control.is-invalid {
   background-color: rgb(18 16 99 / var(--tw-bg-opacity));
 }
 
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
 .p-5 {
   padding: 1.25rem;
 }
@@ -4125,10 +4095,6 @@ textarea.form-control.is-invalid {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .p-4 {
@@ -4148,11 +4114,6 @@ textarea.form-control.is-invalid {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .pt-2 {
@@ -4234,6 +4195,12 @@ textarea.form-control.is-invalid {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .transition {
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -4242,18 +4209,12 @@ textarea.form-control.is-invalid {
   transition-duration: 150ms;
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 
 .duration-150 {
   transition-duration: 150ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
 }
 
 .ease-in-out {
@@ -4349,10 +4310,6 @@ html {
 }
 
 @media (min-width: 768px) {
-  .md\:-m-2 {
-    margin: -0.5rem;
-  }
-
   .md\:mt-32 {
     margin-top: 8rem;
   }
@@ -4389,10 +4346,6 @@ html {
     margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:p-2 {
-    padding: 0.5rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
@@ -4400,16 +4353,5 @@ html {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .lg\:pt-24 {
-    padding-top: 6rem;
   }
 }
