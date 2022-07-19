@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./public/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
+  content: ['./*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
   theme: {
     screens: {
       'sm': '640px',
