@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Add your styles here
+ */
+
+
+@media (min-width: 768px) {
+    body{
+        background-image: url('../res/top2.svg');
+        background-size: 1800px;
+        background-position: 50% -20%;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+ /* Hamburgermenu */
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    width: 24px;
+    transition: all 0.25s;
+    position: relative
+};
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: #fff;;
+    
+  
+};
+
+.hamburger-middle{
+    transform: translateY(7px);
+}
+.hamburger-bottom{
+    transform: translateY(14px);
+}
