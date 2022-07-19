@@ -1,11 +1,2 @@
-## Development
-
-Install Dependencies if you have node installed
-```bash
-    npm i
-```
-
-Run the following command to build the css
-```bash
-    npm run css
-```
+## Info
+This repo is for the week1 assignment - QSTP'22 Web Dev
